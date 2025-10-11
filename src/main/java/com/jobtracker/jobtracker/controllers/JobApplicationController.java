@@ -11,7 +11,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/applications")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
+@CrossOrigin(origins = "https://jobtracker-backend-wdpl.onrender.com", allowCredentials = "true")
 public class JobApplicationController {
 
     private final JobApplicationService jobApplicationService;
